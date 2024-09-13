@@ -17,9 +17,9 @@ namespace jokesApp.Data.Migrations
                     ConcurrencyStamp = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
-                {
-                    table.PrimaryKey("PK_AspNetRoles", x => x.Id);
+                { table.PrimaryKey("PK_AspNetRoles", x => x.Id);
                 });
+                   
 
             migrationBuilder.CreateTable(
                 name: "AspNetUsers",
